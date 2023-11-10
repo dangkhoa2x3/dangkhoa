@@ -1,0 +1,127 @@
+/* CSS cho danh sách sản phẩm */
+
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 10px;
+  }
+  
+  .product {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .product h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .product {
+    padding: 50%;
+  }
+  
+  .product img {
+    margin-bottom: 10px;
+  }
+  
+  .product a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .product a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* CSS cho nút lọc theo loại hàng */
+  #categoryFilter {
+    margin-bottom: 20px;
+  }
+  
+  #categoryFilter label {
+    margin-right: 10px;
+  }
+  
+  /* CSS cho thông báo không tìm thấy sản phẩm */
+  #noProducts {
+    text-align: center;
+    font-size: 18px;
+    color: #f00;
+    margin-top: 20px;
+  }
+  body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-details img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .product-info {
+    flex: 1;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .back-link:hover {
+    background-color: #0056b3;
+  }
+  
+  h3 {
+    position: absolute;
+    bottom: 0;
+  }
+  
